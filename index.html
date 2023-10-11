@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="e_comm.css">
+  <script src="e_comm.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" onclick="showCategories()">Categories</a></li>
+      <li><a href="cart.html" onclick="showCart()">Cart (<span id="cart-count">0</span>)</a></li>
+    </ul>
+    <div id="categoriesDropdown" class="dropdown-content"></div>
+  </nav>
+  <h1 class="title">Featured Products</h1>
+  <div class="product_container"></div>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>E-Commerce Website</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="e_comm.css">
+  <script src="e_comm.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" onclick="showCategories()">Categories</a></li>
+      <li><a href="#" onclick="showCart()">Cart (<span id="cart-count">0</span>)</a></li>
+    </ul>
+    <div id="categoriesDropdown" class="dropdown-content"></div>
+  </nav>
+  <h1 class="title">Featured Products</h1>
+  <div class="product_container"></div>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>My Cart</h2>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="cart-table-body">
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total:</strong></td>
+            <td colspan="2" id="cart-total">$0</td>
+          </tr>
+        </tfoot>
+      </table>
+      <button id="checkout-btn" onclick="checkout()">Proceed to Payment</button>
+    </div>
+  </div>
+
+  <div id="cart-successful" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Item added to Cart!</h2>
+    </div>
+  </div>
+</body>
+</html> -->
